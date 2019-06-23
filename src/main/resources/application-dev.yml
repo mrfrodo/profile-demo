@@ -1,0 +1,12 @@
+spring:
+  profiles: dev
+  cluster:
+    - ipAddress: 127.0.0.1
+      path: /drive1
+    - ipAddress: 127.0.0.2
+      path: /drive2
+    - ipAddress: 127.0.0.3
+      path: /drive3
+
+server:
+  email: frodo-dev@mordor.com

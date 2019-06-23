@@ -1,0 +1,14 @@
+logging:
+  level:
+    .: error
+    org.springframework: ERROR
+    com.frodo: ERROR
+
+spring:
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+
+server:
+  emailAddress: frodo-default@mordor.com

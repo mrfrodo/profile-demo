@@ -1,0 +1,14 @@
+spring:
+  profiles: test
+  cluster:
+    - ipAddress: 192.168.0.1
+      path: /drive1
+    - ipAddress: 192.168.0.2
+      path: /drive2
+    - ipAddress: 192.168.0.3
+      path: /drive3
+
+server:
+  emailAddress: frodo-test@mordor.com
+
+

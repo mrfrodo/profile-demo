@@ -1,0 +1,12 @@
+spring:
+  profiles: prod
+  cluster:
+    - ipAddress: 214.231.12.3
+      path: /drive1
+    - ipAddress: 214.231.12.4
+      path: /drive2
+    - ipAddress: 214.231.12.5
+      path: /drive3
+
+server:
+  emailAddress: frodo-prod@mordor.com
